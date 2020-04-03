@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<nav
+  aria-label="main-navigation"
+  className="navbar is-transparent"
+  role="navigation"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-brand"
+    >
+      <a
+        className="navbar-item"
+        href="/"
+        title="Logo"
+      >
+        <img
+          alt="Kaldi"
+          src="test-file-stub"
+          style={
+            Object {
+              "width": "88px",
+            }
+          }
+        />
+      </a>
+      <div
+        className="navbar-burger burger "
+        data-target="navMenu"
+        onClick={[Function]}
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="navbar-menu "
+      id="navMenu"
+    >
+      <div
+        className="navbar-start has-text-centered"
+      >
+        <a
+          className="navbar-item"
+          href="/about"
+        >
+          About
+        </a>
+        <a
+          className="navbar-item"
+          href="/products"
+        >
+          Products
+        </a>
+        <a
+          className="navbar-item"
+          href="/blog"
+        >
+          Blog
+        </a>
+        <a
+          className="navbar-item"
+          href="/contact"
+        >
+          Contact
+        </a>
+        <a
+          className="navbar-item"
+          href="/contact/examples"
+        >
+          Form Examples
+        </a>
+      </div>
+      <div
+        className="navbar-end has-text-centered"
+      >
+        <a
+          className="navbar-item"
+          href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            className="icon"
+          >
+            <img
+              alt="Github"
+              src="test-file-stub"
+            />
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

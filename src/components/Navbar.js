@@ -3,6 +3,10 @@ import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
+// const Navbar = (props) => {
+//
+// }
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
